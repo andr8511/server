@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: server
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://respectably-doting-ling.data-1.use1.tembo.io:5432/postgres
+    username: postgres
+    password: 1cEwnM2q9myPoibw
+
+  jpa:
+    open-in-view: false
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+
+#logging:
+#  level:
+#    org:
+#      springframework:
+#        security: DEBUG
