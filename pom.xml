@@ -29,7 +29,11 @@
 	</scm>
 
 	<properties>
+<<<<<<< HEAD
 		<java.version>19</java.version>
+=======
+		<java.version>17</java.version>
+>>>>>>> ddac6aa (main)
 	</properties>
 
 	<dependencies>
